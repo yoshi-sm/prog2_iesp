@@ -1,0 +1,19 @@
+package view;
+
+import model.Dimensoes; 
+import java.util.Scanner;
+
+public class Retangulo {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Digite o tamanho da base do retângulo: ");
+		System.
+		
+		
+		Dimensoes a1 = new Dimensoes();
+		
+	}
+
+}

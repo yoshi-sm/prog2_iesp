@@ -1,0 +1,13 @@
+package model;
+
+public class Area {
+	
+	private float base;
+	private float altura;
+	
+	public Area(float b, float a) {
+		this.base = b;
+		this.altura = a;
+	}
+
+}
