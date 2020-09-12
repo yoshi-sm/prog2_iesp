@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;model.Dimensoes&apos; to &apos;Area&apos;&#x0D;&#x0A;- Original project: &apos;retangulo&apos;&#x0D;&#x0A;- Original element: &apos;model.Dimensoes&apos;&#x0D;&#x0A;- Renamed element: &apos;model.Area&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Dimensoes&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;model{Dimensoes.java[Dimensoes" matchStrategy="1" name="Area" qualified="false" references="true" similarDeclarations="false" stamp="1599873298291" textual="false" version="1.0"/>
-</session>

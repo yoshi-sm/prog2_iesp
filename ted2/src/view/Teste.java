@@ -1,9 +1,9 @@
 package view;
 
-import model.Area;
+import model.Retangulo;
 import java.util.Scanner;
 
-public class Retangulo {
+public class Teste {
 	
 	public static void main(String[] args) {
 		
@@ -16,7 +16,7 @@ public class Retangulo {
 		
 		input.close();
 		
-		Area a1 = new Area(base, altura);
+		Retangulo a1 = new Retangulo(base, altura);
 		System.out.print(a1.Mensagem());
 	}
 

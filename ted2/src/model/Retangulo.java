@@ -1,11 +1,11 @@
 package model;
 
-public class Area {
+public class Retangulo {
 	
 	private float base;
 	private float altura;
 	
-	public Area(float b, float a) {
+	public Retangulo(float b, float a) {
 		this.base = b;
 		this.altura = a;
 	}
