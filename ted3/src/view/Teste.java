@@ -3,7 +3,7 @@ package view;
 import model.*;
 import javax.swing.JOptionPane;
 
-public class Moldura {
+public class Teste {
 	
 	public static void main(String[] args) {
 		
@@ -14,6 +14,7 @@ public class Moldura {
 		
 		Retangulo externo = new Retangulo(baseExt, alturaExt);
 		Retangulo interno = new Retangulo(baseInt, alturaInt);
+		Moldura mold = new Moldura(externo, interno);
 		
 		/*medidas do problema: baseExt = 30, alturaExt = 10
 		                       baseInt = 26, alturaInt = 6
@@ -23,7 +24,7 @@ public class Moldura {
 		
 		JOptionPane.showMessageDialog(null, "Area do retangulo externo: "+ externo.CalcularArea()+"\n"
 				+ "Area do retangulo interno: "+ interno.CalcularArea()+"\n\n"
-				+ "Area da moldura retangular: "+ (externo.CalcularArea()-interno.CalcularArea()));
+				+ "Area da moldura retangular: "+ mold.AreaMoldura());
 	}
 
 }
