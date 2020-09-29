@@ -35,7 +35,7 @@ public class Teste {
 		JOptionPane.showMessageDialog(null, "Os dados dos 5 funcionários foram armazenados com sucesso!");
 		
 		
-		/* Testando os métodos
+		 //Testando os métodos
 		 	
 		for (int i=0; i < listaFuncionario.length; i++) {
 			
@@ -46,6 +46,7 @@ public class Teste {
 			System.out.println(listaFuncionario[i].getAtivo()+ ".");
 		}
 		
+		//demitindo o quarto funcionario e aumentando o salario do terceiro em 500
 		System.out.println("\n\n");
 		listaFuncionario[3].demite();
 		listaFuncionario[2].bonifica(500);
@@ -58,6 +59,6 @@ public class Teste {
 			System.out.print(listaFuncionario[i].getRg()+ ", ");
 			System.out.println(listaFuncionario[i].getAtivo()+ ".");
 		}
-		*/
+		
 	}
 }
