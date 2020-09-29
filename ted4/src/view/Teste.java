@@ -34,6 +34,7 @@ public class Teste {
 		}
 		JOptionPane.showMessageDialog(null, "Os dados dos 5 funcionários foram armazenados com sucesso!");
 		
+		/*
 		
 		 //Testando os métodos
 		 	
@@ -58,7 +59,9 @@ public class Teste {
 			System.out.print(listaFuncionario[i].getSalario()+ ", ");
 			System.out.print(listaFuncionario[i].getRg()+ ", ");
 			System.out.println(listaFuncionario[i].getAtivo()+ ".");
+			}
+			*/
 		}
 		
-	}
+	
 }
